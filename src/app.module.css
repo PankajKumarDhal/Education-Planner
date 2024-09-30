@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.head {
+    border: ridge;
+    color: #0d1869;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(33, 252, 241);
+}
+.sub{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+.btn{
+    font-size: 0.9em;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.addSub{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    font-size: larger;
+    padding: 0.5rem;
+}
+.btn1{
+ 
+    background-color: rgb(36, 240, 29);
+    color: white;
+    border-radius: 5px;
+    
+}
+.btn2{
+    background-color: rgb(255, 34, 34);
+    color: white;
+    border-radius: 5px;
+    
+}
